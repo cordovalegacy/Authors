@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+
+#author-table{
+  display:flex;
+  justify-content: center;
+  text-align: left;
+  padding: 10px;
+}
+
+
+#author-headers{
+  display: flex;
+  gap: 50px;
+}
+
+th{
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+#table{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 5px 2px gray;
+  padding: 40px;
+  overflow: hidden;
+}
+
+#author-body{
+  display: flex;
+  flex-direction: column;
+}
+
+#author-layout{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30%;
+  margin-bottom: 5px;
+}
+
+#spread-1{
+  display: flex;
+}
+
+#author-content-1{
+  display: flex;
+}
+
+#spread-2{
+  display: flex;
+}
+
+
+#author-content-2{
+  display: flex;
+}
+
+button{
+  width: 100%;
+  height: 25px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+button:hover{
+  background-color: cadetblue;
+  color: white;
+  border: gray dashed;
+  border-radius: 2px 2px 2px 2px;
+  cursor: pointer;
+  margin-left: 5px ;
+  margin-right: 5px;
+  transition: 500ms;
+}
+
+#red-create{
+  color: red;
+}
+
+
+#red-update{
+  color: red;
+}
+
+#author-update-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#update-label{
+  border: 1px solid gray;
+  padding: 25px;
+}
+
+#create-update-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#create-label{
+  border: 1px solid gray;
+  padding: 25px;
+}
